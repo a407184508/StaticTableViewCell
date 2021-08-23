@@ -32,7 +32,7 @@
             <connections>
                 <outlet property="dynamic" destination="doO-cE-DLI" id="QJP-Yb-3S5"/>
             </connections>
-            <point key="canvasLocation" x="174" y="101"/>
+            <point key="canvasLocation" x="291" y="96"/>
         </tableViewCell>
     </objects>
 </document>

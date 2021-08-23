@@ -10,12 +10,21 @@ import UIKit
 // table view static cell && dynamic cell
 class ViewController: UITableViewController {
     
+    @IBOutlet weak var static1: UILabel!
+    @IBOutlet weak var static2: UILabel!
+    @IBOutlet weak var static3: UILabel!
+    
     var dynamicRowArray: [Int] = (0..<10).sorted()
     var dynamicSectionArray: [Int] = (0..<5).sorted()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        // change static
+        static1.text = "one cell"
+        static2.text = "tow cell"
+        static3.text = "three cell"
         
         tableView.register(UINib(nibName: "CostomTableViewCell", bundle: nil), forCellReuseIdentifier: "CostomTableViewCell")
     }
