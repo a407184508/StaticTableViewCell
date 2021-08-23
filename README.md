@@ -1,7 +1,5 @@
 # 黑科技- iOS静态cell和动态cell结合使用
 
-
-
 ## 1. 什么是静态Cell。
 
 -   静态cell，可以直接布局cell样式的、group、insert group等直接拖@IBOutlet
