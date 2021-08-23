@@ -15,6 +15,7 @@
 		0446E0E426D34A5300B606EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0446E0E226D34A5300B606EC /* LaunchScreen.storyboard */; };
 		0446E0ED26D34B8A00B606EC /* CostomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446E0EB26D34B8A00B606EC /* CostomTableViewCell.swift */; };
 		0446E0EE26D34B8A00B606EC /* CostomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0446E0EC26D34B8A00B606EC /* CostomTableViewCell.xib */; };
+		0446E0F026D362F400B606EC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0446E0EF26D362F400B606EC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0446E0E526D34A5300B606EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0446E0EB26D34B8A00B606EC /* CostomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostomTableViewCell.swift; sourceTree = "<group>"; };
 		0446E0EC26D34B8A00B606EC /* CostomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CostomTableViewCell.xib; sourceTree = "<group>"; };
+		0446E0EF26D362F400B606EC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		0446E0CB26D34A5000B606EC = {
 			isa = PBXGroup;
 			children = (
+				0446E0EF26D362F400B606EC /* README.md */,
 				0446E0D626D34A5000B606EC /* StaticTableViewDemo */,
 				0446E0D526D34A5000B606EC /* Products */,
 			);
@@ -132,6 +135,7 @@
 			files = (
 				0446E0EE26D34B8A00B606EC /* CostomTableViewCell.xib in Resources */,
 				0446E0E426D34A5300B606EC /* LaunchScreen.storyboard in Resources */,
+				0446E0F026D362F400B606EC /* README.md in Resources */,
 				0446E0E126D34A5300B606EC /* Assets.xcassets in Resources */,
 				0446E0DF26D34A5000B606EC /* Main.storyboard in Resources */,
 			);
